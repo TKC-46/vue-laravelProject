@@ -1,6 +1,14 @@
 <template>
-    <div>
-    <p>ようこそNuxt</p>
+    <Header />
     <slot />
-    </div>
+    <Footer />
+    <ModalHelp />
 </template>
+<script>
+export default {
+    setup() {
+        
+    }
+}
+</script>
+
